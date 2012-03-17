@@ -33,14 +33,14 @@ while(1):
             print message
             code = ""
         elif(msg=='2'):
-						message= message.rstrip(message[-1:])
-						os.system('clear')
-						print message
-						code = ""
+	    message= message.rstrip(message[-1:])
+	    os.system('clear')
+	    print message
+	    code = ""
         else:
-        		code = code + msg
+       	    code = code + msg
     except :
-				os.system('clear')
-				print message
-				print"code incorrect"
-				code = ""
+        os.system('clear')
+	print message
+	print"code incorrect"
+	code = ""
